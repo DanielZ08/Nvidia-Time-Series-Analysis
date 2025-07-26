@@ -1,16 +1,19 @@
 # NVDA (Nvidia) Time Series Analysis
 
 Table of Contents
-- [Project Background](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#project-background)
-- [Executive Summary](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#executive-summary)
-  - [Overview of Findings](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#overview-of-findings)
-- [Insights Deep-Dive](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#insights-deep-dive)
-  - [Product Based Complaint Distribution](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#product-based-complaint-distribution)
-  - [Annual Complaint Trends](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#annual-complaint-trends)
-  - [Submission Method Analysis](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#submission-method-analysis)
-  - [Geographic Breakdown](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#geographic-breakdown)
-- [Recommendations](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#recommendations)
-- [Assumptions and Caveats](https://github.com/DanielZ08/Bank-of-America-Consumer-Complaints/tree/main?tab=readme-ov-file#assumptions-and-caveats)
+- [Project Background](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#project-background)
+- [Executive Summary](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#executive-summary)
+  - [Overview of Findings](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#overview-of-findings)
+- [Insights Deep-Dive](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#insights-deep-dive)
+  - [Line Plot of NVDA (Aug 2024 – Jul 2025)](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#line-plot-of-nvda-aug-2024--jul-2025)
+  - [Candlestick Chart (Jan 2021 – Jul 2025)](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#candlestick-chart-jan-2021--jul-2025)
+  - [Moving Averages – MA50 & MA200](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#moving-averages--ma50--ma200)
+  - [Return Distribution Histogram](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#return-distribution-histogram)
+  - [Strategy vs. Buy & Hold Performance](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#strategy-vs-buy--hold-performance)
+- [Recommendations](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#recommendation)
+- [Assumptions and Caveats](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#assumptions-and-caveats)
+- [Personal Opinion](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#assumptions-and-caveats)
+- [Conclusion](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis?tab=readme-ov-file#conclusion)
 
 ## Project Background
 
@@ -35,6 +38,10 @@ This analysis of NVIDIA Corporation (NVDA) revealed several key insights into it
 Candlestick patterns dating back to 2021 showed a consistent evolution from range-bound trading to an upward channel, featuring repeated higher highs and higher lows. Notably, price gaps and large green candles during earnings periods suggested institutional accumulation and sector re-rating. Statistical analysis of NVDA’s daily returns revealed a mean return of approximately +0.25% with a standard deviation of about 2.1%, illustrating a favorable risk-return profile. The return distribution displayed a slight right skew, implying a higher frequency of modest gains than losses, and contained fat tails, indicating the stock’s sensitivity to large market-moving events such as earnings surprises or geopolitical developments.
 
 When comparing investment strategies, the buy-and-hold approach significantly outperformed a tactical, signal-based strategy over the 25-year period analyzed. Buy-and-hold returned approximately 12 times the initial investment, whereas the active strategy returned closer to 8 times ,highlighting the high opportunity cost of market timing in a secular growth stock. The stock’s price behavior also aligned closely with broader macroeconomic catalysts, including interest rate stability, technological breakthroughs, and investor enthusiasm in AI. These findings suggest that NVDA is best approached as a long-term investment, with technical and statistical indicators reinforcing the case for holding through short-term volatility in order to capitalize on its strong compounding potential.
+
+Python code regarding various business questions can be found [here](https://github.com/DanielZ08/Nvidia-Time-Series-Analysis/blob/main/NVDA%20Stock%20Time%20Series%20(1).ipynb)
+
+The original dataset was derived from yfinance API libraries, which can also be found in the link above
 
 
 ## Insights Deep-Dive
