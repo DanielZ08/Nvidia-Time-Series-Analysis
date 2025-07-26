@@ -212,4 +212,6 @@ This project delivers a thorough visual and quantitative exploration of NVDA’s
 All indicators ,from price trendlines to moving average signals and return distributions ,highlight NVDA’s strength as a high-growth equity. 
 The golden cross and recent breakouts suggest the company is entering another bullish phase. Moreover, the buy-and-hold strategy’s superior long-term return illustrates the value of staying invested through cycles. 
 For long-term investors in tech and AI, NVDA presents a compelling opportunity.
+
+**FOR EDUCATIONAL PURPOSES ONLY, NOT INTENDED FOR PERSONAL INVESTMENT/FINANCIAL ADVICE**
   
